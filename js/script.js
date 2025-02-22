@@ -1,11 +1,8 @@
 // A function needs to be created
-
-// Within said function, create somethign with which you can get a random return
-
-// Randomly return either Rock, Paper, or Scissors. 
-
 function getComputerChoice () {
+    // Within said function, create somethign with which you can get a random return
     computerChoice = Math.floor(Math.random() * 3) + 1
+    // Randomly return either Rock, Paper, or Scissors. 
 
     if (computerChoice === 1) {
         console.log("Rock")
